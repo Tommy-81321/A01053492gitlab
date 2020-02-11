@@ -123,21 +123,5 @@ function clearUL() {
     while(ul.firstChild) ul.removeChild(ul.firstChild);
 }
 
-
-//Create history of the list
-// function history() {
-//     let inputValue = "hi";
-//     var x = document.createElement("TABLE");
-//     x.setAttribute("id", "myTable");
-//     document.getElementById("historyList").appendChild(x);
-  
-//     var y = document.createElement("TR");
-//     y.setAttribute("id", "myTr");
-//     document.getElementById("myTable").appendChild(y);
-  
-//     var z = document.createElement("TD");
-//     var t = document.createTextNode(inputValue);
-//     z.appendChild(t);
-//     document.getElementById("myTr").appendChild(z);
-
-// }
+document.write("Renew the file")
+// the file has been changed
